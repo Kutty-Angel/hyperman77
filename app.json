@@ -3,7 +3,7 @@
     "description": "Powerful telegram's group voice chat music player. Run on python3 !!",
     "logo": "https://telegra.ph/file/22265bda0d1d8c2b1978a.jpg",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/UnknownMortal/M8N-Music-Bot",
+    "repository": "https://github.com/hyperman77/M8N-Music-Bot.Git",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -48,17 +48,17 @@
         "SUPPORT": {
             "description": "Fill with your support group username without @",
             "required": true,
-            "value": "M8N_SUPPORT"
+            "value": "DuskyBotZSupport"
         },
         "UPDATE": {
             "description": "Fill with your Update Channel username without @",
             "required": true,
-            "value": "M8N_OFFICIAL"
+            "value": "DuskyBotZUpdates"
         },
         "OWNER_USERNAME": {
             "description": "Fill with the Bot Owner Username without @",
             "required": true,
-            "value": "Its_romeoo"
+            "value": "ONLY_DUSKY"
         },
         "BOT_NAME": {
             "description": "fill with telegram name of bot",
@@ -66,7 +66,7 @@
             "value": ""
         },
         "START_PIC": {
-            "description": "Enter the telegraph link of an image or contact @M8N_SUPPORT",
+            "description": "Enter the telegraph link of an image or contact @DuskyBotZSupport",
             "value": "https://telegra.ph/file/e3bbcfcf96e85553aff4a.jpg",
             "required": true
         },
@@ -83,7 +83,7 @@
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "5058236569"
+            "value": "5338869949"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",

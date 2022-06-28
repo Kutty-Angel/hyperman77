@@ -14,26 +14,26 @@ from m8n.config import BOT_NAME
 @Client.on_callback_query(filters.regex("cbhome"))
 async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""Hello [👋]({START_PIC}) My name is **{BOT_NAME}**
+        f"""Hi [👋]({START_PIC}) I'm **{BOT_NAME}**
 
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
+You Can Use 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 To Play Music In Your Groups.
 
-Use inline buttons given below to know more about me !!""",
+Use Inline Buttons Given Below To Know More About 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 !!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🏳‍🌈 About", callback_data="cbabout"),
+                        "❓ About", callback_data="cbabout"),
                     InlineKeyboardButton(
-                        "☁️ Others", callback_data="others")
+                        "🔰 Others", callback_data="others")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗂 Commands", callback_data="cbevery")
+                        "📚 Commands & Help", callback_data="cbevery")
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Click here to Summon Me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "✚ Add Me To Your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
@@ -45,9 +45,9 @@ Use inline buttons given below to know more about me !!""",
 async def cbcmds_set(_, query: CallbackQuery):
         await query.answer("commands menu")
         await query.edit_message_text(
-        f"""Hello 👋 [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) 
+        f"""Hi 👋 [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) 
 
-Check out all the commands given below by Click on the given inline buttons !!""",
+Check Out All The Commands Given Below By Click On The Given Inline Buttons !!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -172,9 +172,9 @@ async def admin_set(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbabout"))
 async def about_set(_, query: CallbackQuery):
     await query.edit_message_text(
-    f"""Hello 👋 [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})
+    f"""Hi 👋 [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})
 
-Click on the given inline buttons to know all the information about the Bot !!""",
+Click On The Given Inline Buttons To Know All The Information About 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 !!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -184,7 +184,7 @@ Click on the given inline buttons to know all the information about the Bot !!""
                     InlineKeyboardButton("👤 Owner", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton("🎸 Assistant", url=f"https://t.me/{ASSUSERNAME}")
                 ],[
-                    InlineKeyboardButton("🤖 Source Code", url="https://github.com/UnknownMortal/M8N-Music-Bot")
+                    InlineKeyboardButton("🤖 Source Code", url="https://t.me/DuskyBotZUpdates")
                 ],[
                     InlineKeyboardButton("⬅️ Back", callback_data="cbhome")
                 ],
@@ -199,7 +199,7 @@ async def others(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""Powered By : @{UPDATE}
 
-After you played your song some menu buttons will be comes to manage your music playing on voice chat. All the buttons are as follows :
+After You Played Your Song Some Menu Buttons Will Be Comes To Manage Your Music Playing On Voice Chat. All The Buttons Are As Follows :
 
 • ⏸ 
 - Resume Music

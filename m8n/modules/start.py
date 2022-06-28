@@ -16,26 +16,26 @@ from m8n.config import BOT_NAME
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""Hello 👋 My name is **{BOT_NAME}**
+        caption=f"""Hi 👋 I'm **{BOT_NAME}**
 
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
+You Can Use 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 To Play Music In Your Groups .
 
-Use inline buttons given below to know more about me !!""",
+Use Inline Buttons Given Below To Know More About 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥!!""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🏳‍🌈 About", callback_data="cbabout"),
+                        "❓ About", callback_data="cbabout"),
                     InlineKeyboardButton(
-                        "☁️ Others", callback_data="others")
+                        "🔰 Others", callback_data="others")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗂 Commands", callback_data="cbevery")
+                        "📚 Commands & Help", callback_data="cbevery")
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Click here to Summon Me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "✚ Add Me To Your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
            ]
         ),
@@ -46,7 +46,7 @@ Use inline buttons given below to know more about me !!""",
 async def gcstart(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"Thanks for adding me in your group !! If you want to use me with right actions promote me as admin in this Chat.",
+        caption=f"🙏Thanks For Adding 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 In Your Group !! If You Want To Use 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 With Right Actions Promote 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 As Admin In This Chat❤.",
         reply_markup=InlineKeyboardMarkup(
             [
                 [

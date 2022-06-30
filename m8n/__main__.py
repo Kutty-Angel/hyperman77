@@ -40,7 +40,7 @@ async def load_start():
         except Exception as e:
             print("Error came while clearing db")
             pass
-    await app.send_message(OWNER_ID, "**Marshall Music Bot Started Successfully !!**")
+    await app.send_message(OWNER_ID, "** Kutty Angel Started Successfully !!**")
    # Copyrighted Area
     await client.join_chat("DuskyBotZSupport")
     await client.join_chat("DuskyBotZUpdates")

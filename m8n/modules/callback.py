@@ -16,9 +16,9 @@ async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""Hi [👋]({START_PIC}) I'm **{BOT_NAME}**
 
-You Can Use 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 To Play Music In Your Groups.
+You Can Use Kutty Angel Play Music In Your Groups.
 
-Use Inline Buttons Given Below To Know More About 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 !!""",
+Use Inline Buttons Given Below To Know More About Kutty Angel!!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [

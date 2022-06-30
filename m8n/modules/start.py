@@ -18,9 +18,9 @@ async def start_(client: Client, message: Message):
         photo=f"{START_PIC}",
         caption=f"""Hi 👋 I'm **{BOT_NAME}**
 
-You Can Use 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 To Play Music In Your Groups .
+You Can Use Kutty Angel To Play Music In Your Groups .
 
-Use Inline Buttons Given Below To Know More About 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥!!""",
+Use Inline Buttons Given Below To Know More About Kutty Angel !!""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -46,7 +46,7 @@ Use Inline Buttons Given Below To Know More About 𝐌𝐚𝐫𝐬𝐡𝐚𝐥�
 async def gcstart(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"🙏Thanks For Adding 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 In Your Group !! If You Want To Use 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 With Right Actions Promote 𝐌𝐚𝐫𝐬𝐡𝐚𝐥𝐥 As Admin In This Chat❤.",
+        caption=f"🙏 Thanks For Adding Kutty Angel In Your Group !! If You Want To Use Kutty Angel With Right Actions Promote Kutty Angel As Admin In This Chat ❤.",
         reply_markup=InlineKeyboardMarkup(
             [
                 [

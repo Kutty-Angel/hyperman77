@@ -23,7 +23,7 @@ async def load_start():
             await app.edit_message_text(
                 restart_data["chat_id"],
                 restart_data["message_id"],
-                "**Restarted the Bot Successfully.**",
+                "**Kutty Angel Restarted Successfully.**",
             )
         except Exception:
             pass

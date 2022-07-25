@@ -67,7 +67,7 @@
         },
         "START_PIC": {
             "description": "Enter the telegraph link of an image or contact @DuskyBotZSupport",
-            "value": "https://telegra.ph/file/4935b94ee534ac94319ad.jpg",
+            "value": "https://telegra.ph/file/7e71cbbef1a1692e76c51.jpg",
             "required": true
         },
         "API_ID": {
